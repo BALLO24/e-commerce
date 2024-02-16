@@ -1,0 +1,21 @@
+.shop{
+    width: 100%;
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+
+.product{
+    background-color: bisque;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.product img{
+    max-width: 100%;
+}

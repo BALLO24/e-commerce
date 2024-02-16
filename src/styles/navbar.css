@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    background-color: rgb(39, 2, 84);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
